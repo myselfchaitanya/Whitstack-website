@@ -1,0 +1,118 @@
+.container {
+  margin: 0 100px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.welcomePart {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 30px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 18px;
+  color: #191825;
+  opacity: 0.7;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  white-space: wrap;
+  line-height: 1.5;
+}
+
+.Images {
+  width: auto;
+  height: 600px;
+  display: flex;
+}
+
+#img1 {
+  position: absolute;
+  width: 872px;
+  height: 287px;
+  left: 600px;
+  top: 110px;
+}
+
+#img2 {
+  position: relative;
+  top: 40px;
+  left: 150px;
+  width: 650px;
+  height: 500px;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+
+#img2:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Intro {
+    width: 100%;
+  }
+
+  .welcomePart {
+    width: auto;
+    gap: 10px;
+  }
+
+  .welcomePart h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 30px;
+  }
+
+  .welcomePart p {
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 40px;
+    white-space: wrap;
+    text-align:justify;
+
+  }
+
+  .Images {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 0 10px;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

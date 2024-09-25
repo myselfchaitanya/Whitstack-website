@@ -1,0 +1,9 @@
+.headPart{
+    background-image: url("https://img.freepik.com/free-photo/businessman-showing-changes-report_1098-3504.jpg?w=1060&t=st=1727162330~exp=1727162930~hmac=af19024bf64853271927223643b4445da1842fbc81aa9a193b8e6ab4ef6c4ea2");
+}
+
+@media (max-width: 768px){
+    .headPart{
+       background-image: none;
+    }
+}

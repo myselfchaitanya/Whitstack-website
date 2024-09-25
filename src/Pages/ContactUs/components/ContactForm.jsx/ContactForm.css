@@ -1,0 +1,94 @@
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  .form-part{
+    width: 100%;
+    h2{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+  }
+  .formContent {
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    justify-content: space-between;
+    
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-left: 30px;
+      padding-top: 20px;
+      .QandA {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        #heads {
+          color: black;
+          font-weight: 600;
+        }
+      }
+    }
+    form{
+        .ins{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        padding-right: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        gap: 30px;
+        margin-bottom: 50px;
+        input{
+            width: 400px;
+            height: 40px;
+            padding: 10px;
+            font-size: 18px;
+        }
+        label{
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+
+        }
+        button{
+          width: 420px;
+          height: 40px;
+          padding: 10px;
+          font-size: 18px;
+      }
+
+      }
+  }
+}
+
+@media (max-width: 768px){
+ .FormContainer{
+  width: auto;
+
+  .form-part{
+    h2{
+      padding-left:5px;
+    }
+   .formContent{
+
+   .left{
+    display:none;
+  }
+  form{
+    padding: 0;
+    padding: 10px;
+
+
+  }
+} 
+}
+ }
+}

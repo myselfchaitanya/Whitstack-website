@@ -1,0 +1,130 @@
+.ServiceContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 60px;
+  margin-top: 150px;
+
+  .Heading {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      font-family: "Archivo", "sans-serif";
+      margin-bottom: 30px;
+    }
+  }
+  .bodies {
+    display: flex;
+    flex-direction: row;
+
+    #vectorimage {
+      width: 700px;
+      height: 550px;
+      position: absolute;
+      left: 650px;
+      bottom: 0px;
+      opacity: 0.9;
+      /* margin-left: 100px; */
+    }
+  }
+  .Services {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0px; */
+    margin-left: 50px;
+    .service {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      .icon {
+        display: flex;
+        align-items: center;
+        background-color: #ff5722;
+        /* padding: 5px; */
+        width: 75px;
+        height: 75px;
+        font-size: 50px;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        width: 500px;
+        h1 {
+          font-size: 30px;
+          font-weight: bold;
+          font-family: "Archivo", "sans-serif";
+          margin: 0;
+        }
+        p {
+          font-size: 20px;
+          opacity: 0.6;
+          font-family: "Inter", sans-serif;
+          white-space: wrap;
+        }
+      }
+    }
+
+    hr {margin: 10px;
+      color: #9e979746;
+   
+    }
+    #LearnMoreButton{
+      width: 150px;
+      height:40px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      margin-top: 30px;
+      background-color: black;
+      color: white;
+    }
+  }
+}
+@media (max-width: 480px) {
+.ServiceContainer{
+  margin: 0 30px;
+  .Heading{
+    h1{
+      margin-bottom:10px;
+    }
+  }
+  .Services{
+    margin-left: 10px;
+    padding: 0;
+  }
+  .service{
+    width: 350px;
+
+    .icon{
+      padding: 10px;
+    }
+   .content{
+    font-size:10px ;
+    p{
+      display: none;
+    }
+   }
+
+  }
+  .bodies{
+    #vectorimage{
+      display: none;
+    }
+  }
+  hr{
+    margin-top: 10px;
+  }
+}
+}

@@ -1,0 +1,127 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px;
+  margin-top: 20px;
+  /* position: absolute; */
+ 
+  .image {
+    width: 781px;
+    height: 591px;
+    display: flex;
+    flex-direction: row;
+    .square {
+      position: absolute;
+      height: 591px;
+      width: 470px;
+      background-color: #facd49;
+    }
+    .circle {
+      position: absolute;
+      height: 591px;
+      width: 591px;
+      background-color: #facd49;
+      left: 275px;
+      border-radius: 50%;
+    }
+
+    #personImage {
+      position: relative;
+
+      width: 1200px;
+    }
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* width: 450px; */
+    /* align-items: center; */
+    justify-content: center;
+    h1 {
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    p {
+      font-size: 18px;
+      color: #191825;
+      opacity: 0.7;
+      font-family: "Inter", sans-serif;
+      text-align: justify;
+      white-space: wrap;
+      line-height: 1.5;
+    }
+    button {
+      background-color: #010101;
+      border: none;
+      border-radius: 20px;
+      width: 137px;
+      height: 50px;
+      color: #ffffff;
+      z-index: 3;
+      font-weight: bold;
+      font-family: "Inter", sans-serif;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .Container {
+    width: 100%;
+    margin: 0 20px;
+    background-color: #facd49;
+    margin-bottom: 50px;
+    padding: 20px;
+    /* margin-left: 50px; */
+    .image{
+      display: none;
+    }
+    .text{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      width: 500px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      h1{
+        font-weight: bolder;
+        text-wrap: wrap;
+        font-size: 25px;
+        margin-left: 20px;
+     
+      }
+      p{
+        margin-left:10px;
+        margin-right:10px;
+      }
+      button{
+        margin-bottom: 20px;
+      }
+
+
+    }
+    }
+    
+}
+
+@media (max-width: 480px) {
+  .text {
+    width: 100%;
+    h1 {
+      font-size: 2px;
+    }
+    p {
+      font-size: 16px;
+    }
+    button {
+      width: 120px;
+      height: 45px;
+    }
+  }
+}

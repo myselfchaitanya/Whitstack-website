@@ -1,0 +1,69 @@
+.ClientContainer {
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.clients {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.client {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.client img {
+  filter: grayscale(100%);
+  width: 300px;
+  object-fit: cover;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.client:hover {
+  img {
+    filter: grayscale(0%);
+  }
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .ClientContainer {
+    margin: 50px;
+    gap: 30px;
+    margin-bottom: 0;
+    h2 {
+      font-size: 40px;
+    }
+    .clients {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+      .client {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: auto; /* Adjusted size for smaller images */
+        height: 150px;
+      }
+    }
+  }
+}
