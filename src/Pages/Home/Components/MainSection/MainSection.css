@@ -81,13 +81,7 @@
     }
   }
 
-  &:hover .square {
-    transform: scale(1.05);
-  }
 
-  &:hover .circle {
-    transform: scale(1.05);
-  }
 }
 
 @media (max-width: 768px) {
@@ -112,10 +106,10 @@
       justify-content: center;
       gap: 10px;
 
-      h1 {
+      h2 {
         font-weight: bolder;
         font-size: 25px;
-        margin-left: 20px;
+        margin-left: 30px;
       }
 
       p {

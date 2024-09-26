@@ -10,6 +10,7 @@ h2 {
     margin: 20px;
     margin-left: 0;
     font-family: 'Archivo', 'sans-serif';
+    margin-bottom: 30px;
 }
 
 .services {
@@ -107,6 +108,9 @@ h2 {
     .ServiceContainer {
         margin: 0 50px;
         margin-left: 70px;
+        h2{
+            margin-bottom: 40px;
+        }
 
         .services {
             margin-left: 30px;

@@ -10,9 +10,11 @@
   align-items: center;
   padding-bottom: 2px;
   background-color: #fff6db;
-  p{
-  color: #000;
+
+  p {
+    color: #000;
   }
+
   .top {
     display: flex;
     flex-direction: row;
@@ -21,11 +23,13 @@
     padding: 50px;
     gap: 20px;
     align-items: center;
+
     .Socials {
       display: flex;
       flex-direction: column;
       gap: 5px;
-      h3{
+
+      h3 {
         font-size: 40px;
       }
 
@@ -35,6 +39,7 @@
         justify-content: start;
         gap: 20px;
         font-size: 30px;
+
         .iconS {
           background-color: rgb(250, 243, 235);
           width: 40px;
@@ -46,20 +51,22 @@
         }
       }
     }
-    .footerMenu{
+
+    .footerMenu {
       display: flex;
       flex-direction: row;
       gap: 100px;
       align-items: center;
       justify-content: center;
       margin-bottom: 70px;
-      a{
+
+      a {
         text-decoration: none;
         color: black;
         font-size: 16px;
         font-weight: bold;
       }
-      }
+    }
   }
 
 
@@ -67,41 +74,48 @@
 
 @media (max-width: 768px) {
 
-    .FooterContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        /* margin: 0; */
-        left: 20px;
-        width: auto;
-        position: relative;
-        .top{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            margin: 0;
-            padding-bottom: 0px;
-            .Socials{
-                 h3{
-                    font-weight:bolder;
-                    font-size: 30px;
+  .FooterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    /* margin: 0; */
+    left: 20px;
+    width: auto;
+    position: relative;
 
-                }
-                .Social{
-                    font-size:30px;
-                    display: flex;
-                    /* padding: 10px; */
-                }
-            }
-            .footerMenu{
-                display: flex;
-                gap: 50px;
-                align-items: center;
-                justify-content: center;
-                margin: 0;
+    .top {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin: 0;
+      padding-bottom: 0px;
 
-            }
+      .Socials {
+        h3 {
+          font-weight: bolder;
+          font-size: 30px;
+          margin-bottom:10px ;
         }
+
+        .Social {
+          font-size: 30px;
+          display: flex;
+          /* padding: 10px; */
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+
+      .footerMenu {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        margin: 0;
+
+      }
     }
   }
+}

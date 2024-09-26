@@ -30,9 +30,9 @@ const HeroSectioon = () => {
             </h1>
           </header>
           <p>
-            Transform Your Business with Whitstack's Expert IT Strategy and Digital Solutions <br />
+            Transform Your Business with Whitstack's Expert IT Strategy and Digital Solutions <br /> <br />
             Leverage Whitstack's top-tier expertise and advanced tech capabilities to develop a tailored IT strategy that drives your organization’s digital transformation. Our solutions align with your business goals, ensuring a seamless technological transition.
-<br />
+<br /> <br />
             At Whitstack, we help individuals and companies tackle complex business challenges with speed, precision, and customized solutions. Every business is unique, and we prioritize understanding your company’s structure and objectives to deliver personalized results that set you up for success.
           </p>
         </div>
