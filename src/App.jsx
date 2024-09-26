@@ -11,11 +11,11 @@ function App() {
       element: <Home />,
     },
     {
-      path: "/services",
+      path: "/services/",
       element: <ServicesProvided />,
     },
     {
-      path:"/contactus",
+      path:"/contactus/",
       element:<ContactUs/>
     }
   ]);
