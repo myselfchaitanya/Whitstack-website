@@ -26,7 +26,7 @@ const HeroSectioon = () => {
         <div className="welcomePart">
           <header>
             <h1>
-              Welcome to </br>  Whitstack Solutions
+              Welcome to <br/>  Whitstack Solutions
             </h1>
           </header>
           <p>
