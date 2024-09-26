@@ -15,7 +15,11 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   width: 650px;
+=======
+  width: 600px;
+>>>>>>> 4b5f8fdf461d828fd38fb584927b91412c67f96a
   gap: 30px;
   justify-content: center;
 }
@@ -48,7 +52,11 @@ p {
 
 #img1 {
   position: absolute;
+<<<<<<< HEAD
   width: 750px;
+=======
+  width: 800px;
+>>>>>>> 4b5f8fdf461d828fd38fb584927b91412c67f96a
   height: auto;
   left: 800px;
   top: 110px;
