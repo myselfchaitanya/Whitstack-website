@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 # Whitstack
 # Whitstack-website
 # Whitstack-website
+# Whitstack-website
