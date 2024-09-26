@@ -14,7 +14,7 @@ const NavBar = () => {
       <div className={`menu ${menu ? "active" : null}`}>
         <a href="/">Home</a>
         <a href="#ourservices">Our Services</a>
-        <a href="/contactus">Contact</a>
+        <a href="/contactus/">Contact</a>
         <a href="/">About us</a>
       </div>
 
