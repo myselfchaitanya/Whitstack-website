@@ -6,7 +6,7 @@ const MainSection = () => {
       <div className="image">
         <div className="square"></div>
         <div className="circle"></div>
-        <img id="personImage" src="../../../../../public/image3.png" alt="" />
+        <img id="personImage" src="/image3.png" alt="" />
       </div>
 
       <div className="text">

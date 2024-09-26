@@ -15,7 +15,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 700px;
   gap: 30px;
   justify-content: center;
 }
@@ -50,7 +50,7 @@ p {
   position: absolute;
   width: 772px;
   height: auto;
-  left: 750px;
+  left: 850px;
   top: 110px;
 }
 

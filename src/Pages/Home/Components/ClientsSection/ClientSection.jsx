@@ -6,13 +6,13 @@ const ClientSection = () => {
       <h2>OUR CLIENTS</h2>
       <div className="clients">
         <div className="client">
-          <img src="../../../public/retina.png" alt="" />
+          <img src="/retina.png" alt="" />
         </div>
         <div className="client">
-          <img src="../../../public/automatrc.png" alt="" />
+          <img src="/automatrc.png" alt="" />
         </div>
         <div className="client">
-          <img src="../../../public/acne.png" alt="" />
+          <img src="/acne.png" alt="" />
         </div>
       </div>
     </div>

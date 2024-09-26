@@ -16,9 +16,9 @@ const PatnersAndClients = () => {
         <button>Learn More</button>
       </div>
       <div className="PartnerLogo">
-        <img width="300px" height="auto" loading="lazy" title="redington" src="../../../redington.png" alt="redington logo" />
-        <img width="200px" height="auto"  loading="lazy" title="pi" id="pi" src="../../../pi.png" alt="pi data center logo" />
-        <img width="300px" height="auto" loading="lazy" title="crayon" src="../../../crayon.png" alt="cryayon logo" />
+        <img width="300px" height="auto" loading="lazy" title="redington" src="/redington.png" alt="redington logo" />
+        <img width="200px" height="auto"  loading="lazy" title="pi" id="pi" src="/pi.png" alt="pi data center logo" />
+        <img width="300px" height="auto" loading="lazy" title="crayon" src="/crayon.png" alt="cryayon logo" />
       </div>
     </div>
   );

@@ -6,9 +6,9 @@ const HeroSectioon = () => {
 
   // Array of images you want to cycle through
   const images = [
-    "../../../../../public/image05.png",
-    "../../../../../public/image1.jpg",
-    "../../../../../public/software.jpg",
+    "/image05.png",
+    "/image1.jpg",
+    "/software.jpg",
   ];
 
   // Change image every 5 seconds
@@ -26,7 +26,7 @@ const HeroSectioon = () => {
         <div className="welcomePart">
           <header>
             <h1>
-              Welcome to <br /> Whitstack Solutions
+              Welcome to  Whitstack Solutions
             </h1>
           </header>
           <p>
@@ -38,7 +38,7 @@ const HeroSectioon = () => {
         </div>
       </div>
       <div className="Images">
-        <img id="img1" src="../../../../../public/image2.png" alt="" />
+        <img id="img1" src="/image2.png" alt="" />
         <img id="img2" src={images[currentImage]} alt="Dynamic" />
       </div>
     </div>
