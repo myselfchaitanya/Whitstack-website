@@ -4,19 +4,23 @@
   justify-content: space-between;
   margin: 0 100px;
   margin-top: 20px;
-  /* position: absolute; */
- 
+
   .image {
     width: 781px;
     height: 591px;
     display: flex;
     flex-direction: row;
+
     .square {
       position: absolute;
       height: 591px;
       width: 470px;
       background-color: #facd49;
+      /* filter: blur(10px); */
+      transition: transform 0.3s ease;
+      /* Add transition for movement */
     }
+
     .circle {
       position: absolute;
       height: 591px;
@@ -24,11 +28,13 @@
       background-color: #facd49;
       left: 275px;
       border-radius: 50%;
+      /* filter: blur(10px); */
+      transition: transform 0.3s ease;
+      /* Add transition for movement */
     }
 
     #personImage {
       position: relative;
-
       width: 1200px;
     }
   }
@@ -40,22 +46,22 @@
     margin-left: 40px;
     margin-top: 50px;
     margin-bottom: 30px;
-    /* width: 450px; */
-    /* align-items: center; */
     justify-content: center;
-    h1 {
+
+    h2 {
       font-size: 24px;
       line-height: 1.5;
     }
+
     p {
       font-size: 18px;
       color: #191825;
       opacity: 0.7;
       font-family: "Inter", sans-serif;
       text-align: justify;
-      white-space: wrap;
       line-height: 1.5;
     }
+
     button {
       background-color: #010101;
       border: none;
@@ -66,9 +72,24 @@
       z-index: 3;
       font-weight: bold;
       font-family: "Inter", sans-serif;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #face494d;
+        color: black;
+      }
     }
   }
+
+  &:hover .square {
+    transform: scale(1.05);
+  }
+
+  &:hover .circle {
+    transform: scale(1.05);
+  }
 }
+
 @media (max-width: 768px) {
   .Container {
     width: 100%;
@@ -76,11 +97,12 @@
     background-color: #facd49;
     margin-bottom: 50px;
     padding: 20px;
-    /* margin-left: 50px; */
-    .image{
+
+    .image {
       display: none;
     }
-    .text{
+
+    .text {
       display: flex;
       flex-direction: column;
       margin: 0;
@@ -89,36 +111,38 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
-      h1{
+
+      h1 {
         font-weight: bolder;
-        text-wrap: wrap;
         font-size: 25px;
         margin-left: 20px;
-     
       }
-      p{
-        margin-left:10px;
-        margin-right:10px;
+
+      p {
+        margin-left: 10px;
+        margin-right: 10px;
       }
-      button{
+
+      button {
         margin-bottom: 20px;
       }
-
-
     }
-    }
-    
+  }
 }
 
 @media (max-width: 480px) {
   .text {
     width: 100%;
+
     h1 {
       font-size: 2px;
+      /* You may want to adjust this */
     }
+
     p {
       font-size: 16px;
     }
+
     button {
       width: 120px;
       height: 45px;

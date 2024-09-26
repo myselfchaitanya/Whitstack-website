@@ -10,11 +10,11 @@ const MainSection = () => {
       </div>
 
       <div className="text">
-        <h1>
+        <h2>
           Focus On Your Core Business And Leave The Problem Solving To Whitstack
           Expets <br /> IT consulting, Software development, Cloud migrations and
           Staffing solutions
-        </h1>
+        </h2>
         <p>
           Our experts are highly professional and can efficiently update legacy
           systems, manage cloud migrations, provide solutions for cloud
@@ -23,7 +23,7 @@ const MainSection = () => {
           you need a part time or full-time resource.
         </p>
 
-        <button>TALK TO US</button>
+        <button onClick={() => window.location.href = "/contactus"}>TALK TO US</button>
       </div>
     </div>
   );

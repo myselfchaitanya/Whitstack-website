@@ -11,6 +11,11 @@ import { Helmet } from 'react-helmet-async'
 const Home = () => {
   return (
     <>
+    <Helmet>
+      <title>Home</title>
+      <meta name="description" content="Whitstack home page" />
+      <link rel="canonical" href="/" />
+    </Helmet>
     
     <div className='Homes'> 
       <NavBar></NavBar>

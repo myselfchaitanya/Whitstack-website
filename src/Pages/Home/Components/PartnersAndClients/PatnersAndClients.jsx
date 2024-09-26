@@ -4,10 +4,10 @@ const PatnersAndClients = () => {
   return (
     <div className="PartnersContainer">
       <div className="TextAbtPartners">
-        <h1>
+        <h3>
           We Work With the <br />
           Best Partners
-        </h1>
+        </h3>
         <p>
           While we are at the forefront of brand specialize in design-build, we
           are very familiar with a number of delivery methods and are confident
@@ -16,9 +16,9 @@ const PatnersAndClients = () => {
         <button>Learn More</button>
       </div>
       <div className="PartnerLogo">
-        <img src="../../../redington.png" alt="" />
-        <img id="pi" src="../../../pi.png" alt="" />
-        <img src="../../../crayon.png" alt="" />
+        <img width="300px" height="auto" loading="lazy" title="redington" src="../../../redington.png" alt="redington logo" />
+        <img width="200px" height="auto"  loading="lazy" title="pi" id="pi" src="../../../pi.png" alt="pi data center logo" />
+        <img width="300px" height="auto" loading="lazy" title="crayon" src="../../../crayon.png" alt="cryayon logo" />
       </div>
     </div>
   );
