@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../Home/Components/NavBar/NavBar'
+import { Helmet } from 'react-helmet'
 
 const ServicesProvided = () => {
   return (
